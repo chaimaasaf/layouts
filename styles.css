@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  display: inline;
+  margin-left: 10px;
+  color: #00b39b;
+}
+.lead {
+  margin: 0.8em 0;
+  line-height: 1.75;
+  font-weight: 400;
+  width: 300px;
+  height: 350px;
+}
+.menu {
+  display: flex;
+  padding-left: 60%;
+}
+
+body {
+  font: roboto;
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #00b39b;
+}
+.para {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+/* .lead {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+} */
+
+.hero {
+  display: flex;
+}
+
+.item {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+#one {
+  background-color: #00b39b;
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+}
+#two {
+  background-color: lightblue;
+  width: 300px;
+  height: 360px;
+  padding: 50px;
+  margin: 20px;
+}
+
+#three {
+  background-color: darkblue;
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+}
+
+#one > h1 {
+  color: white;
+  font-size: 24px;
+}
+#two > h1 {
+  color: white;
+  font-size: 24px;
+}
+#three > h1 {
+  color: white;
+  font-size: 24px;
+}
+#one > h2 {
+  color: white;
+  font-size: 22px;
+}
+#two > h2 {
+  color: white;
+  font-size: 22px;
+}
+#three > h2 {
+  color: white;
+  font-size: 22px;
+}
